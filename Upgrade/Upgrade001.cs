@@ -12,7 +12,7 @@ namespace DemonMonkey.Upgrade
     internal class Upgrade001 : ModUpgrade<TheDemonMonkey>
     {
         public override string DisplayName => "Harder Throws";
-        public override string Description => "Throwing the shurikens harder makes them deal more damage";
+        public override string Description => "Throwing the shurikens harder makes them deal more damage and be able to pop lead";
 
         public override int Path => BOTTOM;
 
@@ -28,7 +28,7 @@ namespace DemonMonkey.Upgrade
 
             projectileModel.GetDamageModel().damage += 1;
 
-            
+            projectileModel.GetDamageModel().immuneBloonProperties = 0;
         }
     }
 }

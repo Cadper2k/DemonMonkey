@@ -13,7 +13,7 @@ namespace DemonMonkey
 
         public override int Cost => 1000;
 
-        public override int TopPathUpgrades => 3;
+        public override int TopPathUpgrades => 5;
 
         public override int MiddlePathUpgrades => 5;
 

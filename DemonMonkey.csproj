@@ -10,7 +10,13 @@
         <DebugType>embedded</DebugType>
     </PropertyGroup>
     <ItemGroup>
+      <Compile Include=".github\Displays.cs" />
+    </ItemGroup>
+    <ItemGroup>
         <Content Include=".github\workflows\build.yml" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Display\" />
     </ItemGroup>
 
     <Import Project="..\btd6.targets" />

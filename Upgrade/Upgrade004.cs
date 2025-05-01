@@ -33,6 +33,7 @@ namespace DemonMonkey.Upgrade
             projectileModel.GetDamageModel().damage += 3;
             projectileModel.pierce += 5;
             weaponModel.rate *= 0.75f;
+
             projectileModel.GetDamageModel().immuneBloonProperties = 0;
         }
     }
