@@ -19,7 +19,7 @@ namespace DemonMonkey.Upgrade
 
         public override int Tier => 5;
 
-        public override int Cost => 97500;
+        public override int Cost => 130500;
 
         public override void ApplyUpgrade(TowerModel towerModel)
         {
